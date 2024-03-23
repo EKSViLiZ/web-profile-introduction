@@ -1,0 +1,254 @@
+body, html{
+    scroll-behavior: smooth;
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #0b0c10;
+    overflow: visible;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+label{
+    color: #c5c6c7;
+}
+
+.topPanel{
+    position: sticky;
+    height: 2em;
+    
+    background-color: #0b0c10;
+    
+    top: 0;
+    padding-top: 1em;
+    margin-top: 2em;
+    
+    z-index: 1;
+}
+
+.navigationPanel{
+    position: sticky;
+    float: right;
+    margin-right: 14em;
+    
+    z-index: 1;
+    background-color: #0b0c10;
+    top: 0;
+}
+
+.navigation{
+    padding-right: 1em;
+    font-size: 18px;
+    color: #c5c6c7;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    
+    transition: 0.25s;
+}
+
+.navigation:hover{
+    color: #66fcf1;
+}
+
+.selected{
+    color: #45a29e;
+    transition: 0.25s;
+}
+
+.selected:hover{
+    color: #66fcf1;
+}
+
+.content{
+    display: flex;
+    min-height: 90vh;
+    margin: 0 13em;
+    padding-top: 1em;
+}
+
+.content-2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 90vh;
+    
+    padding-top: 3em;
+    margin: 0 13em;
+}
+
+.table-sub-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    height: 140px;
+    
+    padding: .5em;
+}
+
+.infoContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    min-height: 450px;
+    padding: 0 1em;
+}
+
+.imageContainer{
+    position: relative;
+    border: #c5c6c7 solid 1px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-image: url("profile-crop.jpg");
+    background-position: center;
+    border-radius: 8px;
+    width: 500px;
+    height: 420px;
+    top: 3em;
+    margin: 0 2em 0 2em;
+}
+
+.header{
+    position: relative;
+    padding-top: 1em;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    word-spacing: 1.25px;
+    display: flex;
+    flex-direction: column; 
+    width: fit-content;
+}
+
+.navLabel{
+    font-size: 21px;
+}
+
+.name{
+    width: 534.483px;
+    
+    letter-spacing: 1.25px;
+    color: #66fcf1;
+    
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+.course{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 21px;
+}
+
+.body{
+    position: relative;
+    display: flex;
+    color: #c5c6c7;
+    font-family: arial;
+    width: 534.483px;
+    padding-top: 3em;
+    letter-spacing: .65px;
+    
+}
+
+.infoLabel{
+    flex-direction: column;
+    display: flex;
+    width: -moz-available;
+}
+
+.infoData{
+    flex-direction: column;
+    display: flex;
+    width: -moz-available;
+    float: right;
+    text-align: right;
+}
+
+.bodyGap{
+    padding: 8px 0;
+}
+
+.quote{
+    position: relative;
+    display: flex;
+    width: 534.483px;
+    flex-direction: column;
+    padding-top: 6em;
+    text-align: center;
+    letter-spacing: .25px;
+}
+
+.quote-author{
+    position: relative;
+    text-align: right;
+    margin-right: 3em;
+}
+
+.navigation-title{
+    font-size: 21px;
+}
+
+.navigation-info{
+    color: #66fcf1;
+    font-size: 40px;
+}
+
+.content-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    word-spacing: 1.25px;
+    
+    padding-bottom: 3em;
+}
+
+.container-image{
+    position: relative;
+
+    height: 121px;
+    width: 259px;
+}
+.container-info{
+    position: relative;
+    display: flex;
+    
+    margin: 0.5em 1em;
+    
+    width: max-content;
+    height: max-content;
+    
+    flex-direction: column;
+}
+
+.container-title{
+    position: relative;
+    
+    font-size: 18px;
+    
+    font-family: arial;
+    font-weight: bold;
+    letter-spacing: 0.65px;   
+    
+    padding-bottom: 1em;
+}
+
+.container-description{
+    position: relative;
+    
+    font-family: arial;
+}
+
+.select-sensor{
+    position: relative;
+    height: 1px;
+}

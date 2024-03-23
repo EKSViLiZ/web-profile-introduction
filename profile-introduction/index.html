@@ -1,0 +1,152 @@
+<!--
+Make a Character profile which includes name, hobbies, goals (?)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Overview</title>
+</head>
+<body>
+    <div class="topPanel">
+        <div class="navigationPanel">
+            <a href="#profileOverview" class="navigation" id="nav1">Profile Overview</a>
+            <a href="#hobbies" class="navigation" id="nav2">Hobbies</a>
+            <a href="#goals" class="navigation" id="nav3">Goals</a>
+        </div>
+    </div>
+    <div class="content" id="profileOverview"">
+        <div class="infoContainer">
+            <div class="header">
+                <label class="navLabel">Profile Overview</label>
+                <label class="name">Full Name</label>
+                <label class="course">Section</label>
+            </div>
+            <div class="body">
+                <div class="infoLabel">
+                    <label class="bodyGap">Date of Birth:</label>
+                    <label class="bodyGap">Gender:</label>
+                    <label class="bodyGap">Age:</label>
+                    <label class="bodyGap">Address:</label>
+                </div>
+                <div class="infoData">
+                    <label class="bodyGap">Jan 1, 1999</label>
+                    <label class="bodyGap">Male</label>
+                    <label class="bodyGap">25 Years Old</label>
+                    <label class="bodyGap">Village, City, Country</label><label>
+                </div>
+            </div>
+            <div class="quote">
+                <label class=""><i>"Your personal or inspirational quote,"</i></label>
+                <label class="quote-author"><i>by 'The Author of said quote',</i></label>
+            </div>
+        </div>
+        <div class="imageContainer">
+        </div>
+    </div>
+    
+    <div class="select-sensor" id="nav1" style="bottom: 3em;"></div>
+    
+    <div class="content-2" id="hobbies">
+        <div class="content-title">
+            <label class="navigation-title">Hobbies</label>
+            <label class="navigation-info">Things that I like to do,</label>
+        </div>
+        <div class="table-container">
+            <div class="table-sub-container">
+                <img src="drawing.png" alt="drawing" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Drawing</label>
+                    <label class="container-description">Mostly sketching with both pen and pencil.</label>
+                </div>
+            </div>
+            <div class="table-sub-container">
+                <img src="chess.png" alt="chess" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Playing Chess</label>
+                    <label class="container-description">Mostly played online through 'Chess.com'.</label>
+                </div>
+            </div>
+            <div class="table-sub-container">
+                <img src="surfing.png" alt="surfing" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Surfing the Web</label>
+                    <label class="container-description">Mostly just YouTube videos.</label>
+                </div>
+            </div>
+            
+            <div class="select-sensor" id="nav-hobbies"></div>
+            
+            <div class="table-sub-container">
+                <img src="watching.png" alt="watching" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Watching Shows</label>
+                    <label class="container-description">Mostly animes, movies, and a few TV series.</label>
+                </div>
+            </div>
+            <div class="table-sub-container">
+                <img src="reading.png" alt="reading" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Reading</label>
+                    <label class="container-description">Just a few light novels, web novels, and manga.</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-2">
+        <div class="content-title">
+            <label class="navigation-title">Goals</label>
+            <label class="navigation-info">Things that I want to achieve,</label>
+        </div>
+        <div class="table-container">
+            <div class="table-sub-container">
+                <img src="graduate.png" alt="graduate" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Graduate</label>
+                    <label class="container-description">Complete my studies,</label>
+                </div>
+            </div>
+            <div class="table-sub-container">
+                <img src="employment.png" alt="employment" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Find Employment</label>
+                    <label class="container-description">Preferably a decent job with fair wages,</label>
+                </div>
+            </div>
+            <div class="table-sub-container">
+                <img src="independent.png" alt="independent" class="container-image">
+                <div class="container-info">
+                    <label class="container-title">Be Independent</label>
+                    <label class="container-description">Find a place to live by myself and survive on my own,</label>
+                </div>
+            </div>
+        </div>
+        <div class="select-sensor" id="goals"></div>
+    </div>
+    
+    <!--
+    *Design is similar to the achievement menu on 'Steam'
+    
+        Hobbies
+    
+            Drawing --- Sketching (Pencil and pen)
+            Chess --- Online Chess Website (Chess.com)
+            Surfing the Web --- Youtube Videos
+            Watching Shows --- Anime, Movies, TV Series
+            Reading --- Light Novels, Manga
+    
+        Goals
+        
+            Graduate --- Complete my Studies
+            Be Employed --- Find a stable and decent job
+            Be Independent --- Live alone
+    -->
+    <div class="footer">
+        <div class="socialLink">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
